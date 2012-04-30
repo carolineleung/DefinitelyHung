@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Call end settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/notification_enable"
+            android:summary="@string/notification_enable_summary"
+            android:title="@string/notification_enable" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/vibration_enable"
+            android:summary="@string/vibration_enable_summary"
+            android:title="@string/vibration_enable" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="Vibration setting" >
+        <EditTextPreference
+            android:defaultValue="0.5"
+            android:dependency="@string/vibration_enable"
+            android:dialogMessage="@string/vibration_duration_summary"
+            android:dialogTitle="@string/vibration_duration"
+            android:key="@string/vibration_duration"
+            android:summary="@string/vibration_duration_summary"
+            android:title="@string/vibration_duration" />
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>
