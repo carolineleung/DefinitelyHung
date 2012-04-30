@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, DefinitelyHungActivity!</string>
     <string name="app_name">Definitely Hung</string>
     <string name="notification_enable">Enable notification sound</string>
     <string name="notification_enable_summary">Play the default notification sound when a call has ended</string>
