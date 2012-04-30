@@ -16,7 +16,7 @@ import android.telephony.TelephonyManager;
  * 
  * @author carolineleung
  */
-public class ServiceReceiver extends BroadcastReceiver {
+public class PhoneStateUpdateReceiver extends BroadcastReceiver {
 
 	private static final int VIBRATE_TIME_MS = 800;
 
